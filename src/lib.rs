@@ -31,7 +31,7 @@ unsafe fn thread_func() {
     util::disable_memprotect_guard();
     Console::AllocConsole().unwrap();
 
-    println!("Genshin Impact encryption patch\nMade by xeondev\nTo work with NaviaImpact: git.xeondev.com/reversedrooms/NaviaImpact");
+    println!("Genshin Impact encryption patch for version 4.6.0 OS");
     println!("UserAssembly: {:X}", base);
 
     let mut module_manager = MODULE_MANAGER.write().unwrap();
